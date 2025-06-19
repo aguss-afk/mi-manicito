@@ -5,7 +5,18 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: sans-serif;
+    opacity: 0;
+    animation: fadeIn .5s ease-in forwards;
+    background-image: url('peaunt-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; } 
 }
 
 header {
@@ -23,8 +34,10 @@ header {
 
 .logo {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    font-family: "Fleur De Leah";
+    text-decoration: none;
 }
 
 nav a {
@@ -47,7 +60,7 @@ nav a {
 }
 
 .hero-content {
-    color: black;
+    color: white;
     max-width: 700px;
 }
 
