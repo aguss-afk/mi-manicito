@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="navbar">
+    </div>
+    <section class="hero">
+        <ul>
+            <li>
+                Mantequilla de Mani Dulce
+            </li>
+            <li>
+                Mantequilla de Mani Salada
+            </li>
+            <li>
+                Mantequilla de Mani 
+            </li>
+        </ul> 
+    </section>
+    <script>
+        fetch('header.html')
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+</body>
+</html>
