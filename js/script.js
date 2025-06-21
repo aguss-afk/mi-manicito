@@ -8,7 +8,7 @@ window.addEventListener('scroll', function() {
     const header = document.getElementById('nav');
     const scrollPosition = window.scrollY;
 
-    if (scrollPosition > 100) {
+    if (scrollPosition > 10) {
         header.classList.add('transparent');
     } else {
         header.classList.remove('transparent');

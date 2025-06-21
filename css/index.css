@@ -2,7 +2,7 @@
 .hero {
     height: 100vh;
     color: white;
-    background-image: url('../images/peanut.jpg'); /* Puedes reemplazar esta URL */
+    background-image: url('/css/images/peanut.jpg'); /* Puedes reemplazar esta URL */
     background-size: cover;
     background-position: center;
     display: flex;
