@@ -1,0 +1,28 @@
+
+.hero {
+    height: 100vh;
+    color: white;
+    background-image: url('../images/peanut.jpg'); /* Puedes reemplazar esta URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px 20px 20px;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.rico {
+    font-family: "Fleur De Leah";
+    font-size: 200%;
+    color: rgb(255, 0, 0);
+}
+
+
+.intro {
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+}
