@@ -8,3 +8,4 @@ window.addEventListener('load', function() {
     }, 2000);
   }, 1000);
 });
+console.log("para el que este viendo esta pagina, en realidad no la extraño(o si?)");
